@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="81942" started-at="2019-11-28T13:51:33 COT" finished-at="2019-11-28T13:52:55 COT">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="81942" started-at="2019-11-28T13:51:33 COT" finished-at="2019-11-28T13:52:55 COT">
+      <class name="tests.TestMercury">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.TestMercury@366d8b97]" name="setUp" is-config="true" duration-ms="10926" started-at="2019-11-28T13:51:33 COT" finished-at="2019-11-28T13:51:44 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AlterLogin()[pri:0, instance:tests.TestMercury@366d8b97]" name="AlterLogin" duration-ms="10336" started-at="2019-11-28T13:51:44 COT" finished-at="2019-11-28T13:51:55 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AlterLogin -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TestMercury@366d8b97]" name="tearDown" is-config="true" duration-ms="3150" started-at="2019-11-28T13:51:55 COT" finished-at="2019-11-28T13:51:58 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AlterLogin status=SUCCESS method=TestMercury.AlterLogin()[pri:0, instance:tests.TestMercury@366d8b97] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.TestMercury@366d8b97]" name="setUp" is-config="true" duration-ms="4989" started-at="2019-11-28T13:51:58 COT" finished-at="2019-11-28T13:52:03 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="fillForm()[pri:0, instance:tests.TestMercury@366d8b97]" name="fillForm" duration-ms="14472" started-at="2019-11-28T13:52:03 COT" finished-at="2019-11-28T13:52:17 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillForm -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TestMercury@366d8b97]" name="tearDown" is-config="true" duration-ms="3377" started-at="2019-11-28T13:52:17 COT" finished-at="2019-11-28T13:52:21 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fillForm status=SUCCESS method=TestMercury.fillForm()[pri:0, instance:tests.TestMercury@366d8b97] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.TestMercury@366d8b97]" name="setUp" is-config="true" duration-ms="4824" started-at="2019-11-28T13:52:21 COT" finished-at="2019-11-28T13:52:25 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:tests.TestMercury@366d8b97]" name="login" duration-ms="10891" started-at="2019-11-28T13:52:25 COT" finished-at="2019-11-28T13:52:36 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TestMercury@366d8b97]" name="tearDown" is-config="true" duration-ms="3366" started-at="2019-11-28T13:52:36 COT" finished-at="2019-11-28T13:52:40 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=TestMercury.login()[pri:0, instance:tests.TestMercury@366d8b97] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.TestMercury@366d8b97]" name="setUp" is-config="true" duration-ms="4764" started-at="2019-11-28T13:52:40 COT" finished-at="2019-11-28T13:52:44 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginIncorrecto()[pri:0, instance:tests.TestMercury@366d8b97]" name="loginIncorrecto" duration-ms="8531" started-at="2019-11-28T13:52:44 COT" finished-at="2019-11-28T13:52:53 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIncorrecto -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TestMercury@366d8b97]" name="tearDown" is-config="true" duration-ms="2275" started-at="2019-11-28T13:52:53 COT" finished-at="2019-11-28T13:52:55 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginIncorrecto status=SUCCESS method=TestMercury.loginIncorrecto()[pri:0, instance:tests.TestMercury@366d8b97] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TestMercury -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

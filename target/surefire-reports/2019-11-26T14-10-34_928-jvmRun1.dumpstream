@@ -1,0 +1,62 @@
+# Created at 2019-11-26T14:10:59.105
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-11-26T14:10:59.539
+Unexpected IOException with stream: Nov 26, 2019 2:10:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+
+
+# Created at 2019-11-26T14:11:01.505
+Unexpected IOException: 5,1,tests.TestMercury,pruebaDos(tests.TestMercury),tests.TestMercury,null,null
+
+
+# Created at 2019-11-26T14:11:01.514
+Unexpected IOException: 8,1,tests.TestMercury,pruebaDos(tests.TestMercury),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '4.0.0-alpha-3'\002C revision: '8c567de6dc'\000ASystem info: host: 'DESKTOP-90TM9QP'\002C ip: '192.168.1.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_201'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81...\002C userDataDir: C:\005CUsers\005CONEUSE~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:51824}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: ce31ecba2818f2141e860c475adf226c\000A*** Element info: {Using=name\002C value=userName},null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '4.0.0-alpha-3'\002C revision: '8c567de6dc'\000ASystem info: host: 'DESKTOP-90TM9QP'\002C ip: '192.168.1.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_201'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81...\002C userDataDir: C:\005CUsers\005CONEUSE~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:51824}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: ce31ecba2818f2141e860c475adf226c\000A*** Element info: {Using=name\002C value=userName},TestMercury.pruebaDos:51 \00BB NoSuchWindow no such window: target window already ...,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '4.0.0-alpha-3'\002C revision: '8c567de6dc'\000ASystem info: host: 'DESKTOP-90TM9QP'\002C ip: '192.168.1.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_201'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81...\002C userDataDir: C:\005CUsers\005CONEUSE~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:51824}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: ce31ecba2818f2141e860c475adf226c\000A*** Element info: {Using=name\002C value=userName}\000A\0009at tests.TestMercury.pruebaDos(TestMercury.java:51)\000A
+
+
+# Created at 2019-11-26T14:11:01.530
+Unexpected IOException: 8,1,tests.TestMercury,tearDown(tests.TestMercury),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '4.0.0-alpha-3'\002C revision: '8c567de6dc'\000ASystem info: host: 'DESKTOP-90TM9QP'\002C ip: '192.168.1.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_201'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81...\002C userDataDir: C:\005CUsers\005CONEUSE~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:51824}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: ce31ecba2818f2141e860c475adf226c,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '4.0.0-alpha-3'\002C revision: '8c567de6dc'\000ASystem info: host: 'DESKTOP-90TM9QP'\002C ip: '192.168.1.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_201'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81...\002C userDataDir: C:\005CUsers\005CONEUSE~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:51824}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: ce31ecba2818f2141e860c475adf226c,TestMercury.tearDown:93 \00BB NoSuchWindow no such window: target window already c...,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '4.0.0-alpha-3'\002C revision: '8c567de6dc'\000ASystem info: host: 'DESKTOP-90TM9QP'\002C ip: '192.168.1.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_201'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81...\002C userDataDir: C:\005CUsers\005CONEUSE~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:51824}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: ce31ecba2818f2141e860c475adf226c\000A\0009at tests.TestMercury.tearDown(TestMercury.java:93)\000A
+
+
+# Created at 2019-11-26T14:11:01.534
+Unexpected IOException: 9,1,tests.TestMercury,setUp(tests.TestMercury),null,null,null
+
+
+# Created at 2019-11-26T14:11:01.536
+Unexpected IOException: 5,1,tests.TestMercury,pruebaTres(tests.TestMercury),tests.TestMercury,null,null
+
+
+# Created at 2019-11-26T14:11:01.539
+Unexpected IOException: 9,1,tests.TestMercury,pruebaTres(tests.TestMercury),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '4.0.0-alpha-3'\002C revision: '8c567de6dc'\000ASystem info: host: 'DESKTOP-90TM9QP'\002C ip: '192.168.1.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_201'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81...\002C userDataDir: C:\005CUsers\005CONEUSE~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:51824}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: ce31ecba2818f2141e860c475adf226c,null
+
+
+# Created at 2019-11-26T14:11:01.540
+Unexpected IOException: 9,1,tests.TestMercury,tearDown(tests.TestMercury),null,null,null
+
+
+# Created at 2019-11-26T14:11:01.542
+Unexpected IOException: 9,1,tests.TestMercury,setUp(tests.TestMercury),null,null,null
+
+
+# Created at 2019-11-26T14:11:01.543
+Unexpected IOException: 5,1,tests.TestMercury,pruebaUno(tests.TestMercury),tests.TestMercury,null,null
+
+
+# Created at 2019-11-26T14:11:01.544
+Unexpected IOException: 9,1,tests.TestMercury,pruebaUno(tests.TestMercury),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '4.0.0-alpha-3'\002C revision: '8c567de6dc'\000ASystem info: host: 'DESKTOP-90TM9QP'\002C ip: '192.168.1.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_201'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81...\002C userDataDir: C:\005CUsers\005CONEUSE~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:51824}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: ce31ecba2818f2141e860c475adf226c,null
+
+
+# Created at 2019-11-26T14:11:01.546
+Unexpected IOException: 9,1,tests.TestMercury,tearDown(tests.TestMercury),null,null,null
+
+
+# Created at 2019-11-26T14:11:01.753
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGDirectoryTestSuite,tests.TestMercury,null,null,null
+
+
